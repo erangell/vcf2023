@@ -1,0 +1,68 @@
+        <table border=0 cellpadding=5>
+
+        <tr>
+        <td class=units>
+        User ID:
+        </td>
+        <td class=units>
+        <input type=text size=20 maxlength=20 name=sid 
+	value=<?php echo "$valstuid" ?>>
+        </td>
+        </tr>
+
+        <tr>
+        <td class=units>
+        Last Name:
+        </td>
+        <td class=units>
+        <input type=text size=35 maxlength=35 name=slast
+	value=<?php echo "$valstulast" ?>>
+        </td>
+        </tr>
+
+        <tr>
+        <td class=units>
+        First Name:
+        </td>
+        <td class=units>
+        <input type=text size=35 maxlength=35 name=sfirst
+	value=<?php echo "$valstufirst" ?>>
+        </td>
+        </tr>
+
+        <tr>
+        <td class=units>
+        Email Address:
+        </td>
+        <td class=units>
+        <input type=text size=40 maxlength=40 name=semail
+	value=<?php echo "$valstuemail" ?>>
+        </td>
+        </tr>
+
+        <tr>
+        <td class=units>
+        </td>
+        <td class=units>
+        <input type=submit value="Add">
+        </td>
+       	</tr>
+
+        <tr>
+        <td class=units>
+        </td>
+        <td class=units>
+	<li><a href="mboMaintStudent.php">Return to Student Maintenance</a>
+        </td>
+       	</tr>
+
+
+        </table>
+
+
+	<input type=hidden name="err">
+        </form>
+
+
+        </center>
+

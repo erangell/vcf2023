@@ -1,0 +1,11 @@
+        <table border=0 cellpadding=5>
+        <tr>
+       	</tr>
+        </table>
+
+	<br><br>
+	<li><a href="admIndex.php">Return to Login Screen</a>
+        </form>
+
+        </center>
+

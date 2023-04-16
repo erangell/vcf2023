@@ -1,0 +1,9 @@
+        <tr>
+        <td class=units>
+        Section ID:
+        </td>
+        <td class=units>
+        <input type=text size=20 maxlength=20 name=sectid
+	value=<?php echo "$valinputadmsectid" ?>>
+        </td>
+        </tr>

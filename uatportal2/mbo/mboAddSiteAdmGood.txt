@@ -1,0 +1,17 @@
+        <table border=0 cellpadding=5>
+        <tr>
+       	</tr>
+        </table>
+
+	<h3>Please select one of the following options</h3>
+
+	<li><a href="mboAddSiteAdmin.php?err=0001">Add another Site Admin</a>
+	<br><br>
+	<li><a href="mboMaintSiteAdmin.php">Return to Site Admin Maintenance</a>
+	<br><br>
+	<li><a href="mboAdmMenu.php">Return to Main Menu</a>
+        </form>
+
+
+        </center>
+

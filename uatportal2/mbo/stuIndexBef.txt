@@ -1,0 +1,10 @@
+        <h1>Please select your school from the list below:</h1>
+
+        <P>
+        <form action="mboSiteSel.php"  method=POST>
+
+        <table border=0 cellpadding=5>
+        <tr>
+        <td class=units>
+        <SELECT name="selsite">
+	<option value="" SELECTED>Select a school...</option>

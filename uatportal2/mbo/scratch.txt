@@ -1,0 +1,1 @@
+Given the key and function name, use the mouse to place the noteheads and accidentals for the Root, Third, and Fifth of the given chord on the staff, then click CHECK to check your answer.

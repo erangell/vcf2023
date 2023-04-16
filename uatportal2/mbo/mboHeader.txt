@@ -1,0 +1,55 @@
+        <html>
+        <head>
+        <title> Music Basics Online </title>
+
+	<style type="text/css" media="screen"><!-- body { } 
+	.credits { color: #fff; font-weight: normal; font-size: 11px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+
+	.units { color: black; font-weight: bolder; font-size: 14px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular } p { } td { }
+
+	.note { color: #006; font-weight: bold; font-size: 18px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+
+	.notetext  { color: #006; font-weight: bolder; font-size: 14px; font-family: "Times New Roman", Georgia, Times }
+
+	.mainheads { color: black; font-weight: bold; font-size: 24px; font-family: Arial, Arial, Helvetica, Geneva, Helvetica, Geneva }
+
+	.maintext { color: black; font-weight: normal; font-size: 14px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+
+	a { color:#00f } a:hover { color: #c06 } --></style>
+
+        </head>
+
+        <body bgcolor="#000066" text="#000000" link="#808066" vlink="#808066">
+	<div align="center"><table width=800 border=0 cellspacing=2 cellpadding=2 align=center>
+	<tr><td width="71%"><a href="mutheoryhome.php">
+	<img src="mutheoryhorizrev.gif" width="544" height="96" border="0"></a></td>
+	<td width="29%" class="credits">
+	<p><font face="Arial, Helvetica, sans-serif">A joint project of the 
+	<a href="http://www.music.udel.edu/">Department of Music</a> at the <a 
+	href="http://www.udel.edu">University of Delaware</a> and the Music and Multimedia Center of <a 
+	href="http://www.tatnall.org">The Tatnall School</a> with support from the <a 
+	href="http://www.udel.edu/cte/">Center for Teaching Effectiveness</a> and the <a 
+	href="http://www.udel.edu/present/">PRESENT</a> program of the University of Delaware's
+	 IT User Services.	</font></p></td></tr>
+	</table>
+	<hr width="800">
+
+	<table width=98% border=0 cellspacing=2 cellpadding=0 bgcolor=#000066><tr>
+
+	<td width=19% height=523 valign=top bgcolor=#000066>
+	<table width=98% border=0 cellspacing=4 cellpadding=5 bgcolor=#ffffcc>
+<!--
+	<tr><td height=36 align=center bgcolor=#CCCC66>
+	<div align=center class=mutheory><p class=ofnote><font color=#000066>
+	<span class=note>of note...</span></font></p></div></td></tr>
+	<tr><td height=50 align=center bgcolor=#FFFFCC><div align=left>
+	<span class=notetext><font color=#000066>
+	Please login using your ID and Password for this course.  These fields are case-sensitive.
+	</font></span></div></td>
+-->
+
+
+	<td width=81% valign=top height=523 class=units>
+	
+        <center>	
+	

@@ -1,0 +1,419 @@
+
+--------------------
+SUCCS_VLDTN|TATN|bsimpson
+--------------------
+2006-04-03 06:10:23 *** BEGIN mboupldw.php
+Upload Parameters: 
+tmp_name=|/var/tmp/phpuDa4xS| 
+ name=|udmtsrec.wav| 
+ type=|audio/wav| 
+ error=|0| 
+ size=|54475| 
+ 
+Debug: type=|audio/wav| expectedftype=|audio/wav| boolCmpr=0 
+Debug: name=|udmtsrec.wav| expectedfname=|udmtsrec.wav| boolCmpr=0 
+VALID UPLOAD: FILE TYPE EQUALS audio/wav 
+VALID UPLOAD: FILE NAME EQUALS udmtsrec.wav 
+Reading next file number file...
+Filename: ../mb0upldw/nextfnum.fyl
+fnumfile does not exist - creating it.
+Data successfully written to the new file number file.  Deleting lock file.
+Uploading file to: S0000001_TATN_bsimpson.wav.
+ About to move uploaded file to: destpath=../mb0upldw/S0000001_TATN_bsimpson.wav
+Uploaded file has been moved to destination.
+Lock file has been deleted.
+2006-04-03 06:10:23 *** END mboupldw.php
+--------------------
+SUCCS_VLDTN|TATN|etest1
+--------------------
+2008-11-30 19:41:29 *** BEGIN mboupldw.php
+Upload Parameters: 
+tmp_name=|/var/tmp/phpJpaiTS| 
+ name=|udmtsrec.wav| 
+ type=|audio/wav| 
+ error=|0| 
+ size=|4851044| 
+ 
+Debug: type=|audio/wav| expectedftype1=|audio/wav| expectedftype2=|audio/x-wav| boolCmpr1=0| boolCmpr2=-1 
+Debug: name=|udmtsrec.wav| expectedfname=|udmtsrec.wav| boolCmpr=0 
+VALID UPLOAD: FILE TYPE IN ( audio/wav audio/x-wav ) 
+VALID UPLOAD: FILE NAME EQUALS udmtsrec.wav 
+INVALID UPLOAD: SIZE GREATER THAN 1MB 
+2008-11-30 19:41:29 *** END mboupldw.php
+--------------------
+SUCCS_VLDTN|TATN|etest1
+--------------------
+2008-11-30 19:44:23 *** BEGIN mboupldw.php
+Upload Parameters: 
+tmp_name=|/var/tmp/phpjKayJ6| 
+ name=|udmtsrec.wav| 
+ type=|audio/wav| 
+ error=|0| 
+ size=|358331| 
+ 
+Debug: type=|audio/wav| expectedftype1=|audio/wav| expectedftype2=|audio/x-wav| boolCmpr1=0| boolCmpr2=-1 
+Debug: name=|udmtsrec.wav| expectedfname=|udmtsrec.wav| boolCmpr=0 
+VALID UPLOAD: FILE TYPE IN ( audio/wav audio/x-wav ) 
+VALID UPLOAD: FILE NAME EQUALS udmtsrec.wav 
+Reading next file number file...
+Filename: ../mb0upldw/nextfnum.fyl
+Fnum File read successfully: fnumdata=0000001
+fnumdata=0000002
+Data successfully written to next sequence number file.  Deleting original fnumfile.
+Renaming next sequence number file
+Uploading file to: S0000002_TATN_etest1.wav.
+ About to move uploaded file to: destpath=../mb0upldw/S0000002_TATN_etest1.wav
+Uploaded file has been moved to destination.
+Lock file has been deleted.
+2008-11-30 19:44:23 *** END mboupldw.php
+--------------------
+SUCCS_VLDTN|TATN|etest1
+--------------------
+2008-11-30 19:44:29 *** BEGIN mboupldw.php
+Upload Parameters: 
+tmp_name=|/var/tmp/phpN5aONS| 
+ name=|udmtsrec.wav| 
+ type=|audio/wav| 
+ error=|0| 
+ size=|342974| 
+ 
+Debug: type=|audio/wav| expectedftype1=|audio/wav| expectedftype2=|audio/x-wav| boolCmpr1=0| boolCmpr2=-1 
+Debug: name=|udmtsrec.wav| expectedfname=|udmtsrec.wav| boolCmpr=0 
+VALID UPLOAD: FILE TYPE IN ( audio/wav audio/x-wav ) 
+VALID UPLOAD: FILE NAME EQUALS udmtsrec.wav 
+Reading next file number file...
+Filename: ../mb0upldw/nextfnum.fyl
+Fnum File read successfully: fnumdata=0000002
+fnumdata=0000003
+Data successfully written to next sequence number file.  Deleting original fnumfile.
+Renaming next sequence number file
+Uploading file to: S0000003_TATN_etest1.wav.
+ About to move uploaded file to: destpath=../mb0upldw/S0000003_TATN_etest1.wav
+Uploaded file has been moved to destination.
+Lock file has been deleted.
+2008-11-30 19:44:29 *** END mboupldw.php
+--------------------
+SUCCS_VLDTN|TATN|etest1
+--------------------
+2008-11-30 19:45:01 *** BEGIN mboupldw.php
+Upload Parameters: 
+tmp_name=|/var/tmp/phpO6aqNS| 
+ name=|udmtsrec.wav| 
+ type=|audio/wav| 
+ error=|0| 
+ size=|1896344| 
+ 
+Debug: type=|audio/wav| expectedftype1=|audio/wav| expectedftype2=|audio/x-wav| boolCmpr1=0| boolCmpr2=-1 
+Debug: name=|udmtsrec.wav| expectedfname=|udmtsrec.wav| boolCmpr=0 
+VALID UPLOAD: FILE TYPE IN ( audio/wav audio/x-wav ) 
+VALID UPLOAD: FILE NAME EQUALS udmtsrec.wav 
+Reading next file number file...
+Filename: ../mb0upldw/nextfnum.fyl
+Fnum File read successfully: fnumdata=0000003
+fnumdata=0000004
+Data successfully written to next sequence number file.  Deleting original fnumfile.
+Renaming next sequence number file
+Uploading file to: S0000004_TATN_etest1.wav.
+ About to move uploaded file to: destpath=../mb0upldw/S0000004_TATN_etest1.wav
+Uploaded file has been moved to destination.
+Lock file has been deleted.
+2008-11-30 19:45:01 *** END mboupldw.php
+--------------------
+SUCCS_VLDTN|TATN|etest2
+--------------------
+2008-11-30 19:54:09 *** BEGIN mboupldw.php
+Upload Parameters: 
+tmp_name=|/var/tmp/phpBvayNS| 
+ name=|udmtsrec.wav| 
+ type=|audio/wav| 
+ error=|0| 
+ size=|5292044| 
+ 
+Debug: type=|audio/wav| expectedftype1=|audio/wav| expectedftype2=|audio/x-wav| boolCmpr1=0| boolCmpr2=-1 
+Debug: name=|udmtsrec.wav| expectedfname=|udmtsrec.wav| boolCmpr=0 
+VALID UPLOAD: FILE TYPE IN ( audio/wav audio/x-wav ) 
+VALID UPLOAD: FILE NAME EQUALS udmtsrec.wav 
+Reading next file number file...
+Filename: ../mb0upldw/nextfnum.fyl
+Fnum File read successfully: fnumdata=0000004
+fnumdata=0000005
+Data successfully written to next sequence number file.  Deleting original fnumfile.
+Renaming next sequence number file
+Uploading file to: S0000005_TATN_etest2.wav.
+ About to move uploaded file to: destpath=../mb0upldw/S0000005_TATN_etest2.wav
+Uploaded file has been moved to destination.
+Lock file has been deleted.
+2008-11-30 19:54:09 *** END mboupldw.php
+--------------------
+SUCCS_VLDTN|TATN|lsimpson
+--------------------
+2008-12-20 19:52:52 *** BEGIN mboupldw.php
+Upload Parameters: 
+tmp_name=|/var/tmp/phpP6aqNS| 
+ name=|udmtsrec.wav| 
+ type=|audio/wav| 
+ error=|0| 
+ size=|57231| 
+ 
+Debug: type=|audio/wav| expectedftype1=|audio/wav| expectedftype2=|audio/x-wav| boolCmpr1=0| boolCmpr2=-1 
+Debug: name=|udmtsrec.wav| expectedfname=|udmtsrec.wav| boolCmpr=0 
+VALID UPLOAD: FILE TYPE IN ( audio/wav audio/x-wav ) 
+VALID UPLOAD: FILE NAME EQUALS udmtsrec.wav 
+Reading next file number file...
+Filename: ../mb0upldw/nextfnum.fyl
+Fnum File read successfully: fnumdata=0000005
+fnumdata=0000006
+Data successfully written to next sequence number file.  Deleting original fnumfile.
+Renaming next sequence number file
+Uploading file to: S0000006_TATN_lsimpson.wav.
+ About to move uploaded file to: destpath=../mb0upldw/S0000006_TATN_lsimpson.wav
+Uploaded file has been moved to destination.
+Lock file has been deleted.
+2008-12-20 19:52:52 *** END mboupldw.php
+--------------------
+SUCCS_VLDTN|TATN|bsimpson
+--------------------
+2008-12-23 13:51:46 *** BEGIN mboupldw.php
+Upload Parameters: 
+tmp_name=|/var/tmp/phpmyaWVt| 
+ name=|udmtsrec.wav| 
+ type=|audio/x-wav| 
+ error=|0| 
+ size=|332142| 
+ 
+Debug: type=|audio/x-wav| expectedftype1=|audio/wav| expectedftype2=|audio/x-wav| boolCmpr1=1| boolCmpr2=0 
+Debug: name=|udmtsrec.wav| expectedfname=|udmtsrec.wav| boolCmpr=0 
+VALID UPLOAD: FILE TYPE IN ( audio/wav audio/x-wav ) 
+VALID UPLOAD: FILE NAME EQUALS udmtsrec.wav 
+Reading next file number file...
+Filename: ../mb0upldw/nextfnum.fyl
+Fnum File read successfully: fnumdata=0000006
+fnumdata=0000007
+Data successfully written to next sequence number file.  Deleting original fnumfile.
+Renaming next sequence number file
+Uploading file to: S0000007_TATN_bsimpson.wav.
+ About to move uploaded file to: destpath=../mb0upldw/S0000007_TATN_bsimpson.wav
+Uploaded file has been moved to destination.
+Lock file has been deleted.
+2008-12-23 13:51:46 *** END mboupldw.php
+--------------------
+SUCCS_VLDTN|TATN|bsimpson
+--------------------
+2008-12-26 07:34:35 *** BEGIN mboupldw.php
+Upload Parameters: 
+tmp_name=|| 
+ name=|| 
+ type=|| 
+ error=|4| 
+ size=|0| 
+ 
+INVALID UPLOAD: ERROR NOT EQUAL TO ZERO, OR SIZE = 0 
+2008-12-26 07:34:35 *** END mboupldw.php
+--------------------
+SUCCS_VLDTN|TATN|bsimpson
+--------------------
+2008-12-26 07:34:46 *** BEGIN mboupldw.php
+Upload Parameters: 
+tmp_name=|/var/tmp/phpBTaWAN| 
+ name=|udmtsrec.wav| 
+ type=|audio/wav| 
+ error=|0| 
+ size=|20025| 
+ 
+Debug: type=|audio/wav| expectedftype1=|audio/wav| expectedftype2=|audio/x-wav| boolCmpr1=0| boolCmpr2=-1 
+Debug: name=|udmtsrec.wav| expectedfname=|udmtsrec.wav| boolCmpr=0 
+VALID UPLOAD: FILE TYPE IN ( audio/wav audio/x-wav ) 
+VALID UPLOAD: FILE NAME EQUALS udmtsrec.wav 
+Reading next file number file...
+Filename: ../mb0upldw/nextfnum.fyl
+Fnum File read successfully: fnumdata=0000007
+fnumdata=0000008
+Data successfully written to next sequence number file.  Deleting original fnumfile.
+Renaming next sequence number file
+Uploading file to: S0000008_TATN_bsimpson.wav.
+ About to move uploaded file to: destpath=../mb0upldw/S0000008_TATN_bsimpson.wav
+Uploaded file has been moved to destination.
+Lock file has been deleted.
+2008-12-26 07:34:46 *** END mboupldw.php
+--------------------
+SUCCS_VLDTN|TATN|bsimpson
+--------------------
+2008-12-26 10:07:10 *** BEGIN mboupldw.php
+Upload Parameters: 
+tmp_name=|/var/tmp/phpnyaWVt| 
+ name=|udmtsrec.wav| 
+ type=|audio/wav| 
+ error=|0| 
+ size=|332831| 
+ 
+Debug: type=|audio/wav| expectedftype1=|audio/wav| expectedftype2=|audio/x-wav| boolCmpr1=0| boolCmpr2=-1 
+Debug: name=|udmtsrec.wav| expectedfname=|udmtsrec.wav| boolCmpr=0 
+VALID UPLOAD: FILE TYPE IN ( audio/wav audio/x-wav ) 
+VALID UPLOAD: FILE NAME EQUALS udmtsrec.wav 
+Reading next file number file...
+Filename: ../mb0upldw/nextfnum.fyl
+Fnum File read successfully: fnumdata=0000008
+fnumdata=0000009
+Data successfully written to next sequence number file.  Deleting original fnumfile.
+Renaming next sequence number file
+Uploading file to: S0000009_TATN_bsimpson.wav.
+ About to move uploaded file to: destpath=../mb0upldw/S0000009_TATN_bsimpson.wav
+Uploaded file has been moved to destination.
+Lock file has been deleted.
+2008-12-26 10:07:10 *** END mboupldw.php
+--------------------
+SUCCS_VLDTN|TATN|hsimpson
+--------------------
+2009-12-14 13:58:04 *** BEGIN mboupldw.php
+Upload Parameters: 
+tmp_name=|/var/tmp/phpZ9aqib| 
+ name=|udmtsrec.wav| 
+ type=|audio/wav| 
+ error=|0| 
+ size=|39317| 
+ 
+Debug: type=|audio/wav| expectedftype1=|audio/wav| expectedftype2=|audio/x-wav| boolCmpr1=0| boolCmpr2=-1 
+Debug: name=|udmtsrec.wav| expectedfname=|udmtsrec.wav| boolCmpr=0 
+VALID UPLOAD: FILE TYPE IN ( audio/wav audio/x-wav ) 
+VALID UPLOAD: FILE NAME EQUALS udmtsrec.wav 
+Reading next file number file...
+Filename: ../mb0upldw/nextfnum.fyl
+Fnum File read successfully: fnumdata=0000009
+fnumdata=0000010
+Data successfully written to next sequence number file.  Deleting original fnumfile.
+Renaming next sequence number file
+Uploading file to: S0000010_TATN_hsimpson.wav.
+ About to move uploaded file to: destpath=../mb0upldw/S0000010_TATN_hsimpson.wav
+Uploaded file has been moved to destination.
+Lock file has been deleted.
+2009-12-14 13:58:04 *** END mboupldw.php
+--------------------
+SUCCS_VLDTN|TATN|bsimpson
+--------------------
+2010-01-09 13:18:51 *** BEGIN mboupldw.php
+Upload Parameters: 
+tmp_name=|/var/tmp/phpgLaaVv| 
+ name=|udmtsrec.wav| 
+ type=|audio/x-wav| 
+ error=|0| 
+ size=|30360| 
+ 
+Debug: type=|audio/x-wav| expectedftype1=|audio/wav| expectedftype2=|audio/x-wav| boolCmpr1=1| boolCmpr2=0 
+Debug: name=|udmtsrec.wav| expectedfname=|udmtsrec.wav| boolCmpr=0 
+VALID UPLOAD: FILE TYPE IN ( audio/wav audio/x-wav ) 
+VALID UPLOAD: FILE NAME EQUALS udmtsrec.wav 
+Reading next file number file...
+Filename: ../mb0upldw/nextfnum.fyl
+Fnum File read successfully: fnumdata=0000010
+fnumdata=0000011
+Data successfully written to next sequence number file.  Deleting original fnumfile.
+Renaming next sequence number file
+Uploading file to: S0000011_TATN_bsimpson.wav.
+ About to move uploaded file to: destpath=../mb0upldw/S0000011_TATN_bsimpson.wav
+Uploaded file has been moved to destination.
+Lock file has been deleted.
+2010-01-09 13:18:51 *** END mboupldw.php
+--------------------
+SUCCS_VLDTN|TATN|bsimpson
+--------------------
+2010-01-09 13:26:47 *** BEGIN mboupldw.php
+Upload Parameters: 
+tmp_name=|/var/tmp/php19aqib| 
+ name=|udmtsrec.wav| 
+ type=|audio/x-wav| 
+ error=|0| 
+ size=|28293| 
+ 
+Debug: type=|audio/x-wav| expectedftype1=|audio/wav| expectedftype2=|audio/x-wav| boolCmpr1=1| boolCmpr2=0 
+Debug: name=|udmtsrec.wav| expectedfname=|udmtsrec.wav| boolCmpr=0 
+VALID UPLOAD: FILE TYPE IN ( audio/wav audio/x-wav ) 
+VALID UPLOAD: FILE NAME EQUALS udmtsrec.wav 
+Reading next file number file...
+Filename: ../mb0upldw/nextfnum.fyl
+Fnum File read successfully: fnumdata=0000011
+fnumdata=0000012
+Data successfully written to next sequence number file.  Deleting original fnumfile.
+Renaming next sequence number file
+Uploading file to: S0000012_TATN_bsimpson.wav.
+ About to move uploaded file to: destpath=../mb0upldw/S0000012_TATN_bsimpson.wav
+Uploaded file has been moved to destination.
+Lock file has been deleted.
+2010-01-09 13:26:47 *** END mboupldw.php
+--------------------
+SUCCS_VLDTN|TATN|bsimpson
+--------------------
+2010-01-09 13:45:54 *** BEGIN mboupldw.php
+Upload Parameters: 
+tmp_name=|/var/tmp/phpjuaqcR| 
+ name=|udmtsrec.wav| 
+ type=|audio/wav| 
+ error=|0| 
+ size=|23470| 
+ 
+Debug: type=|audio/wav| expectedftype1=|audio/wav| expectedftype2=|audio/x-wav| boolCmpr1=0| boolCmpr2=-1 
+Debug: name=|udmtsrec.wav| expectedfname=|udmtsrec.wav| boolCmpr=0 
+VALID UPLOAD: FILE TYPE IN ( audio/wav audio/x-wav ) 
+VALID UPLOAD: FILE NAME EQUALS udmtsrec.wav 
+Reading next file number file...
+Filename: ../mb0upldw/nextfnum.fyl
+Fnum File read successfully: fnumdata=0000012
+fnumdata=0000013
+Data successfully written to next sequence number file.  Deleting original fnumfile.
+Renaming next sequence number file
+Uploading file to: S0000013_TATN_bsimpson.wav.
+ About to move uploaded file to: destpath=../mb0upldw/S0000013_TATN_bsimpson.wav
+Uploaded file has been moved to destination.
+Lock file has been deleted.
+2010-01-09 13:45:54 *** END mboupldw.php
+--------------------
+SUCCS_VLDTN|TATN|bsimpson
+--------------------
+2011-08-08 21:24:19 *** BEGIN mboupldw.php
+Upload Parameters: 
+tmp_name=|/var/tmp/phpDCaiGX| 
+ name=|udmtsrec.wav| 
+ type=|audio/x-wav| 
+ error=|0| 
+ size=|332831| 
+ 
+Debug: type=|audio/x-wav| expectedftype1=|audio/wav| expectedftype2=|audio/x-wav| boolCmpr1=1| boolCmpr2=0 
+Debug: name=|udmtsrec.wav| expectedfname=|udmtsrec.wav| boolCmpr=0 
+VALID UPLOAD: FILE TYPE IN ( audio/wav audio/x-wav ) 
+VALID UPLOAD: FILE NAME EQUALS udmtsrec.wav 
+Reading next file number file...
+Filename: ../mb0upldw/nextfnum.fyl
+Fnum File read successfully: fnumdata=0000013
+fnumdata=0000014
+Data successfully written to next sequence number file.  Deleting original fnumfile.
+Renaming next sequence number file
+Uploading file to: S0000014_TATN_bsimpson.wav.
+ About to move uploaded file to: destpath=../mb0upldw/S0000014_TATN_bsimpson.wav
+Uploaded file has been moved to destination.
+Lock file has been deleted.
+2011-08-08 21:24:19 *** END mboupldw.php
+--------------------
+SUCCS_VLDTN|TATN|deb
+--------------------
+2011-10-15 09:40:27 *** BEGIN mboupldw.php
+Upload Parameters: 
+tmp_name=|/var/tmp/php6daiOy| 
+ name=|udmtsrec.wav| 
+ type=|audio/wav| 
+ error=|0| 
+ size=|62743| 
+ 
+Debug: type=|audio/wav| expectedftype1=|audio/wav| expectedftype2=|audio/x-wav| boolCmpr1=0| boolCmpr2=-1 
+Debug: name=|udmtsrec.wav| expectedfname=|udmtsrec.wav| boolCmpr=0 
+VALID UPLOAD: FILE TYPE IN ( audio/wav audio/x-wav ) 
+VALID UPLOAD: FILE NAME EQUALS udmtsrec.wav 
+Reading next file number file...
+Filename: ../mb0upldw/nextfnum.fyl
+Fnum File read successfully: fnumdata=0000014
+fnumdata=0000015
+Data successfully written to next sequence number file.  Deleting original fnumfile.
+Renaming next sequence number file
+Uploading file to: S0000015_TATN_deb.wav.
+ About to move uploaded file to: destpath=../mb0upldw/S0000015_TATN_deb.wav
+Uploaded file has been moved to destination.
+Lock file has been deleted.
+2011-10-15 09:40:27 *** END mboupldw.php

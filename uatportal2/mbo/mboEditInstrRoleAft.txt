@@ -1,0 +1,74 @@
+        <table border=0 cellpadding=5>
+
+        <tr>
+        <td class=units>
+        User ID:
+        </td>
+        <td class=units>
+	<?php echo "$valadmid" ?>
+        </td>
+        </tr>
+
+        <tr>
+        <td class=units>
+        Site:
+        </td>
+        <td class=units>
+	<?php echo "$valadmsite" ?>
+        </td>
+        </tr>
+
+        <tr>
+        <td class=units>
+        Last Name:
+        </td>
+        <td class=units>
+	<?php echo "$valadmlast" ?>
+        </td>
+        </tr>
+
+        <tr>
+        <td class=units>
+        First Name:
+        </td>
+        <td class=units>
+	<?php echo "$valadmfirst" ?>
+        </td>
+        </tr>
+
+        <tr>
+        <td class=units>
+        Site Admin (Y/N):
+        </td>
+        <td class=units>
+        <input type=text size=1 maxlength=1 name=sflagsiteadm
+	value=<?php echo "$valadmflagsiteadm" ?>>
+        </td>
+        </tr>
+
+
+        <tr>
+        <td class=units>
+        </td>
+        <td class=units>
+        <input type=submit value="Update">
+        </td>
+       	</tr>
+
+        <tr>
+        <td class=units>
+        </td>
+        <td class=units>
+        </td>
+       	</tr>
+
+
+        </table>
+
+
+	<input type=hidden name="err">
+        </form>
+
+
+        </center>
+

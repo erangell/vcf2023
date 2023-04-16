@@ -1,0 +1,10 @@
+        <table border=0 cellpadding=5>
+
+        <tr>
+        <td class=units>
+        Site:
+        </td>
+        <td class=units>
+        <?php echo "$valinputadmsiteid" ?>
+        </td>
+        </tr>

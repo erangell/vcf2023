@@ -1,0 +1,10 @@
+        <table border=0 cellpadding=5>
+
+        <tr>
+        <td class=units>
+        Site:
+        </td>
+        <td class=units>
+        <input type=text size=10 maxlength=10 name=siteid
+	</td>
+        </tr>

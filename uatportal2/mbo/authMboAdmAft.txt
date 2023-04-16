@@ -1,0 +1,35 @@
+        <table border=0 cellpadding=5>
+        <tr>
+        <td class=units>
+        User ID:
+        </td>
+        <td class=units>
+        <input type=text size=20 maxlength=20 name=sid>
+        </td>
+        </tr>
+
+        <tr>
+        <td class=units>
+        Password:
+        </td>
+        <td class=units>
+        <input type=password size=20 maxlength=20 name=spn>
+        </td>
+        </tr>
+        <tr>
+        <td class=units>
+        </td>
+        <td class=units>
+        <input type=submit value="Login">
+	<input type=submit name=btnSubmit value="Change Password">
+        </td>
+       	</tr>
+        </table>
+
+
+	<input type=hidden name="err">
+        </form>
+
+
+        </center>
+

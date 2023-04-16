@@ -1,0 +1,36 @@
+        <tr>
+        <td class=units>
+        Site Description:
+        </td>
+        <td class=units>
+        <input type=text size=35 maxlength=35 name=sitedesc
+	value=<?php echo "$valinputadmsitedesc" ?>>
+        </td>
+        </tr>
+
+        <tr>
+        <td class=units>
+        </td>
+        <td class=units>
+        <input type=submit value="Add">
+        </td>
+       	</tr>
+
+        <tr>
+        <td class=units>
+        </td>
+        <td class=units>
+	<li><a href="mboMaintSite.php">Return to Site Maintenance</a>
+        </td>
+       	</tr>
+
+
+        </table>
+
+
+	<input type=hidden name="err">
+        </form>
+
+
+        </center>
+

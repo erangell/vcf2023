@@ -1,0 +1,10 @@
+        <table border=0 cellpadding=5>
+        <tr>
+       	</tr>
+        </table>
+
+	<li><a href="mboAdmMenu.php">Return to Main Menu</a>
+        </form>
+
+
+        </center>

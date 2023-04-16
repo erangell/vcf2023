@@ -1,0 +1,42 @@
+        <table border=0 cellpadding=5>
+
+        <tr>
+        <td class=units>
+        User ID:
+        </td>
+        <td class=units>
+        <?php echo "$valstuid" ?>
+        </td>
+        </tr>
+
+        <tr>
+        <td class=units>
+        Last Name:
+        </td>
+        <td class=units>
+        <?php echo "$valstulast" ?>
+        </td>
+        </tr>
+
+        <tr>
+        <td class=units>
+        First Name:
+        </td>
+        <td class=units>
+        <?php echo "$valstufirst" ?>
+        </td>
+        </tr>
+
+        <tr>
+        <td class=units>
+        Email Address:
+        </td>
+        <td class=units>
+        <?php echo "$valstuemail" ?>
+        </td>
+        </tr>
+
+        </table>
+
+	<input type=hidden name="err">
+

@@ -1,0 +1,1 @@
+\j2sdk1.4.2_16\bin\jar -cvmf manifest.txt UdmtRecorder.jar *.class

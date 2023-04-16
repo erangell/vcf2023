@@ -1,0 +1,17 @@
+        <table border=0 cellpadding=5>
+        <tr>
+       	</tr>
+        </table>
+
+	Please select your class from the list below:
+	<p>
+	<table border=2>
+	<tr>	
+		<td><a href="mutheoryhome.php">MUSC105: Fundamentals Of Music</a></td>
+	</tr>
+	</table>
+        </form>
+
+
+        </center>
+
