@@ -1,0 +1,826 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww28600\viewh18000\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Test of ECHOSERVER.BAS (11:52:21am) and WRITETCP.BAS (11:54:11am) on Apple 2c+\
+Fujinet has latest firmware\
+2c+ has RomXc+ and Mockingbird 4c+\
+\
+Using '/dev/cu.usbserial-1120' as serial port.\
+Using '460800' as baud rate.\
+Showing logs:\
+[11:52:20] \
+[11:52:20] Command Packet:\
+[11:52:20] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 a2 80 dc 82 80 80 bc 80 eb fa c8 ca \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 dc 02 00 00 bc 00                      -................\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 000002\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] fe ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 a2 80 dc 83 80 80 dc 80 aa ea c8 ca \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 dc 03 00 00 dc 00                      -................\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 000003\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 a2 80 dc 84 80 80 dc 80 af eb c8 ca \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 dc 04 00 00 dc 00                      -................\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 000004\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 a2 80 dc bb c5 80 dc 80 ff fe c8 ca \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 dc 3b 45 00 dc 00                      -....;E..........\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 00453b\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 a2 80 dc 82 80 80 bc 80 eb fa c8 ca \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 dc 02 00 00 bc 00                      -................\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 000002\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 a2 80 dc 83 80 80 dc 80 aa ea c8 ca \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 dc 03 00 00 dc 00                      -................\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 000003\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 a2 80 dc 84 80 80 dc 80 af eb c8 ca \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 dc 04 00 00 dc 00                      -................\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 000004\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 a2 80 dc bb c5 80 dc 80 ff fe c8 ca \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 dc 3b 45 00 dc 00                      -....;E..........\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 00453b\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 a2 80 98 de c5 80 98 80 ba ee c8 cc \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 98 5e 45 00 98 00                      -....^E..........\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 00455e\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 a2 80 96 dd c5 80 98 80 bf ea c8 cc \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 96 5d 45 00 98 00                      -....]E..........\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 00455d\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 82 80 c2 df c5 80 98 80 eb ab c8 cc \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 42 5f 45 00 98 00                      -...B_E..........\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 00455f\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 82 80 c4 e0 c5 80 98 80 fa bf c8 ca \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 44 60 45 00 98 00                      -...D`E..........\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 004560\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 82 80 c6 e1 c5 80 98 80 fb be c8 ca \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 46 61 45 00 98 00                      -...FaE..........\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 004561\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] fe ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 82 80 c8 e2 c5 80 98 80 fe ba c8 ca \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 48 62 45 00 98 00                      -...HbE..........\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 004562\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] fe ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 82 80 ca e3 c5 80 98 80 ff bb c8 ca \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 4a 63 45 00 98 00                      -...JcE..........\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 004563\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 82 80 cc e4 c5 80 98 80 fe bb c8 cc \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 4c 64 45 00 98 00                      -...LdE..........\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 004564\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 82 80 ce e5 c5 80 98 80 ff ba c8 cc \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 4e 65 45 00 98 00                      -...NeE..........\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 004565\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 82 80 d0 e6 c5 80 98 80 ea be c8 ca \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 50 66 45 00 98 00                      -...PfE..........\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 004566\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 82 80 d2 e7 c5 80 98 80 eb bf c8 cc \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 52 67 45 00 98 00                      -...RgE..........\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 004567\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 82 80 d4 e8 c5 80 98 80 ea bb c8 ca \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 54 68 45 00 98 00                      -...ThE..........\
+[11:52:20] \
+[11:52:20] handling read block command\
+[11:52:20] Drive 82  Read block 004568\
+[11:52:20] sending block packet ...\
+[11:52:20] Command Packet:\
+[11:52:20] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 82 80 d6 e9 c5 80 98 80 eb ba c8 cc \
+[11:52:20] Decoding 9 bytes\
+[11:52:20] 0000: 01 03 00 56 69 45 00 98 00                      -...ViE..........\
+[11:52:21] \
+[11:52:21] handling read block command\
+[11:52:21] Drive 82  Read block 004569\
+[11:52:21] sending block packet ...\
+[11:52:21] Command Packet:\
+[11:52:21] fe ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 82 80 d8 ea c5 80 98 80 ee be c8 ca \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 01 03 00 58 6a 45 00 98 00                      -...XjE..........\
+[11:52:21] \
+[11:52:21] handling read block command\
+[11:52:21] Drive 82  Read block 00456a\
+[11:52:21] sending block packet ...\
+[11:52:21] Command Packet:\
+[11:52:21] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 82 80 da eb c5 80 98 80 ef bf c8 ca \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 01 03 00 5a 6b 45 00 98 00                      -...ZkE..........\
+[11:52:21] \
+[11:52:21] handling read block command\
+[11:52:21] Drive 82  Read block 00456b\
+[11:52:21] sending block packet ...\
+[11:52:21] Command Packet:\
+[11:52:21] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 82 80 dc ec c5 80 98 80 ee bf c8 cc \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 01 03 00 5c 6c 45 00 98 00                      -...\\lE..........\
+[11:52:21] \
+[11:52:21] handling read block command\
+[11:52:21] Drive 82  Read block 00456c\
+[11:52:21] sending block packet ...\
+[11:52:21] Command Packet:\
+[11:52:21] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 a2 80 96 ed c5 80 98 80 af fa c8 ca \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 01 03 00 96 6d 45 00 98 00                      -....mE..........\
+[11:52:21] \
+[11:52:21] handling read block command\
+[11:52:21] Drive 82  Read block 00456d\
+[11:52:21] sending block packet ...\
+[11:52:21] Command Packet:\
+[11:52:21] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 be ba c8 ca \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:52:21] \
+[11:52:21] handling status command\
+[11:52:21] Target Device: 82\
+[11:52:21] ******** Sending DIB! ********\
+[11:52:21] send_status_dib_reply_packet status = F8\
+[11:52:21] \
+[11:52:21] DIB number of blocks 65535\
+[11:52:21] f8 ff ff 00\
+[11:52:21] Command Packet:\
+[11:52:21] ff ff ff ff ff c3 83 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 bf ba c8 cc \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:52:21] \
+[11:52:21] handling status command\
+[11:52:21] Target Device: 83\
+[11:52:21] ******** Sending DIB! ********\
+[11:52:21] send_status_dib_reply_packet status = FC\
+[11:52:21] \
+[11:52:21] DIB number of blocks 280\
+[11:52:21] fc 18 01 00\
+[11:52:21] Command Packet:\
+[11:52:21] ff ff ff ff ff c3 84 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 ba bb c8 ca \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:52:21] \
+[11:52:21] handling status command\
+[11:52:21] Target Device: 84\
+[11:52:21] ******** Sending DIB! ********\
+[11:52:21] send_status_dib_reply_packet status = EC\
+[11:52:21] \
+[11:52:21] ec 00 00 00\
+[11:52:21] Command Packet:\
+[11:52:21] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 be ba c8 ca \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:52:21] \
+[11:52:21] handling status command\
+[11:52:21] Target Device: 82\
+[11:52:21] ******** Sending DIB! ********\
+[11:52:21] send_status_dib_reply_packet status = F8\
+[11:52:21] \
+[11:52:21] DIB number of blocks 65535\
+[11:52:21] f8 ff ff 00\
+[11:52:21] Command Packet:\
+[11:52:21] ff ff ff ff ff c3 83 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 bf ba c8 ca \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:52:21] \
+[11:52:21] handling status command\
+[11:52:21] Target Device: 83\
+[11:52:21] ******** Sending DIB! ********\
+[11:52:21] send_status_dib_reply_packet status = FC\
+[11:52:21] \
+[11:52:21] DIB number of blocks 280\
+[11:52:21] fc 18 01 00\
+[11:52:21] Command Packet:\
+[11:52:21] fe ff ff ff ff c3 84 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 ba bb c8 ca \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:52:21] \
+[11:52:21] handling status command\
+[11:52:21] Target Device: 84\
+[11:52:21] ******** Sending DIB! ********\
+[11:52:21] send_status_dib_reply_packet status = EC\
+[11:52:21] \
+[11:52:21] ec 00 00 00\
+[11:52:21] Command Packet:\
+[11:52:21] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 be ba c8 ca \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:52:21] \
+[11:52:21] handling status command\
+[11:52:21] Target Device: 82\
+[11:52:21] ******** Sending DIB! ********\
+[11:52:21] send_status_dib_reply_packet status = F8\
+[11:52:21] \
+[11:52:21] DIB number of blocks 65535\
+[11:52:21] f8 ff ff 00\
+[11:52:21] Command Packet:\
+[11:52:21] fe ff ff ff ff c3 83 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 bf ba c8 cc \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:52:21] \
+[11:52:21] handling status command\
+[11:52:21] Target Device: 83\
+[11:52:21] ******** Sending DIB! ********\
+[11:52:21] send_status_dib_reply_packet status = FC\
+[11:52:21] \
+[11:52:21] DIB number of blocks 280\
+[11:52:21] fc 18 01 00\
+[11:52:21] Command Packet:\
+[11:52:21] ff ff ff ff ff c3 84 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 ba bb c8 ca \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:52:21] \
+[11:52:21] handling status command\
+[11:52:21] Target Device: 84\
+[11:52:21] ******** Sending DIB! ********\
+[11:52:21] send_status_dib_reply_packet status = EC\
+[11:52:21] \
+[11:52:21] ec 00 00 00\
+[11:52:21] Command Packet:\
+[11:52:21] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 be ba c8 ca \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:52:21] \
+[11:52:21] handling status command\
+[11:52:21] Target Device: 82\
+[11:52:21] ******** Sending DIB! ********\
+[11:52:21] send_status_dib_reply_packet status = F8\
+[11:52:21] \
+[11:52:21] DIB number of blocks 65535\
+[11:52:21] f8 ff ff 00\
+[11:52:21] Command Packet:\
+[11:52:21] fe ff ff ff ff c3 83 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 bf ba c8 ca \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:52:21] \
+[11:52:21] handling status command\
+[11:52:21] Target Device: 83\
+[11:52:21] ******** Sending DIB! ********\
+[11:52:21] send_status_dib_reply_packet status = FC\
+[11:52:21] \
+[11:52:21] DIB number of blocks 280\
+[11:52:21] fc 18 01 00\
+[11:52:21] Command Packet:\
+[11:52:21] ff ff ff ff ff c3 84 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 ba bb c8 ca \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:52:21] \
+[11:52:21] handling status command\
+[11:52:21] Target Device: 84\
+[11:52:21] ******** Sending DIB! ********\
+[11:52:21] send_status_dib_reply_packet status = EC\
+[11:52:21] \
+[11:52:21] ec 00 00 00\
+[11:52:21] Command Packet:\
+[11:52:21] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 be ba c8 cc \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:52:21] \
+[11:52:21] handling status command\
+[11:52:21] Target Device: 82\
+[11:52:21] ******** Sending DIB! ********\
+[11:52:21] send_status_dib_reply_packet status = F8\
+[11:52:21] \
+[11:52:21] DIB number of blocks 65535\
+[11:52:21] f8 ff ff 00\
+[11:52:21] Command Packet:\
+[11:52:21] fe ff ff ff ff c3 83 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 bf ba c8 ca \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:52:21] \
+[11:52:21] handling status command\
+[11:52:21] Target Device: 83\
+[11:52:21] ******** Sending DIB! ********\
+[11:52:21] send_status_dib_reply_packet status = FC\
+[11:52:21] \
+[11:52:21] DIB number of blocks 280\
+[11:52:21] fc 18 01 00\
+[11:52:21] Command Packet:\
+[11:52:21] ff ff ff ff ff c3 84 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 ba bb c8 ca \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:52:21] \
+[11:52:21] handling status command\
+[11:52:21] Target Device: 84\
+[11:52:21] ******** Sending DIB! ********\
+[11:52:21] send_status_dib_reply_packet status = EC\
+[11:52:21] \
+[11:52:21] ec 00 00 00\
+[11:52:21] Command Packet:\
+[11:52:21] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 be ba c8 ca \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:52:21] \
+[11:52:21] handling status command\
+[11:52:21] Target Device: 82\
+[11:52:21] ******** Sending DIB! ********\
+[11:52:21] send_status_dib_reply_packet status = F8\
+[11:52:21] \
+[11:52:21] DIB number of blocks 65535\
+[11:52:21] f8 ff ff 00\
+[11:52:21] Command Packet:\
+[11:52:21] fe ff ff ff ff c3 83 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 bf ba c8 ca \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:52:21] \
+[11:52:21] handling status command\
+[11:52:21] Target Device: 83\
+[11:52:21] ******** Sending DIB! ********\
+[11:52:21] send_status_dib_reply_packet status = FC\
+[11:52:21] \
+[11:52:21] DIB number of blocks 280\
+[11:52:21] fc 18 01 00\
+[11:52:21] Command Packet:\
+[11:52:21] ff ff ff ff ff c3 84 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 ba bb c8 cc \
+[11:52:21] Decoding 9 bytes\
+[11:52:21] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:52:21] \
+[11:52:21] handling status command\
+[11:52:21] Target Device: 84\
+[11:52:21] ******** Sending DIB! ********\
+[11:52:21] send_status_dib_reply_packet status = EC\
+[11:52:21] \
+[11:54:01] ec 00 00 00\
+[11:54:01] Command Packet:\
+[11:54:01] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 a2 80 dc bb c5 80 bc 80 bf ee c8 ca \
+[11:54:01] Decoding 9 bytes\
+[11:54:01] 0000: 01 03 00 dc 3b 45 00 bc 00                      -....;E..........\
+[11:54:01] \
+[11:54:01] handling read block command\
+[11:54:01] Drive 82  Read block 00453b\
+[11:54:01] sending block packet ...\
+[11:54:01] Command Packet:\
+[11:54:01] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 a2 80 dc bb c5 80 bc 80 bf ee c8 cc \
+[11:54:01] Decoding 9 bytes\
+[11:54:01] 0000: 01 03 00 dc 3b 45 00 bc 00                      -....;E..........\
+[11:54:01] \
+[11:54:01] handling read block command\
+[11:54:01] Drive 82  Read block 00453b\
+[11:54:01] sending block packet ...\
+[11:54:01] Command Packet:\
+[11:54:01] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 fd cd c5 80 fd 80 ab ef c8 ca \
+[11:54:01] Decoding 9 bytes\
+[11:54:01] 0000: 01 03 00 7d 4d 45 00 7d 00                      -...\}ME.\}........\
+[11:54:01] \
+[11:54:01] handling read block command\
+[11:54:01] Drive 82  Read block 00454d\
+[11:54:01] sending block packet ...\
+[11:54:01] Command Packet:\
+[11:54:01] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 fb cc c5 80 fd 80 ae ee c8 ca \
+[11:54:01] Decoding 9 bytes\
+[11:54:01] 0000: 01 03 00 7b 4c 45 00 7d 00                      -...\{LE.\}........\
+[11:54:01] \
+[11:54:01] handling read block command\
+[11:54:01] Drive 82  Read block 00454c\
+[11:54:02] sending block packet ...\
+[11:54:02] Command Packet:\
+[11:54:02] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 fb ce c5 80 fd 80 ae ef c8 ca \
+[11:54:02] Decoding 9 bytes\
+[11:54:02] 0000: 01 03 00 7b 4e 45 00 7d 00                      -...\{NE.\}........\
+[11:54:02] \
+[11:54:02] handling read block command\
+[11:54:02] Drive 82  Read block 00454e\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 a2 80 dc bb c5 80 bc 80 bf ee c8 ca \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 dc 3b 45 00 bc 00                      -....;E..........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 00453b\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 a2 80 dc bb c5 80 bc 80 bf ee c8 ca \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 dc 3b 45 00 bc 00                      -....;E..........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 00453b\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 fd de c5 80 fd 80 ba ee c8 ca \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 7d 5e 45 00 7d 00                      -...\}^E.\}........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 00455e\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 fb dd c5 80 fd 80 bf ee c8 cc \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 7b 5d 45 00 7d 00                      -...\{]E.\}........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 00455d\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 c2 df c5 80 fd 80 ae fb c8 ca \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 42 5f 45 00 7d 00                      -...B_E.\}........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 00455f\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 c4 e0 c5 80 fd 80 bf ef c8 cc \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 44 60 45 00 7d 00                      -...D`E.\}........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 004560\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 c6 e1 c5 80 fd 80 be ee c8 cc \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 46 61 45 00 7d 00                      -...FaE.\}........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 004561\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] fe ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 c8 e2 c5 80 fd 80 bb ea c8 ca \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 48 62 45 00 7d 00                      -...HbE.\}........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 004562\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] fe ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 ca e3 c5 80 fd 80 ba eb c8 ca \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 4a 63 45 00 7d 00                      -...JcE.\}........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 004563\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] fe ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 cc e4 c5 80 fd 80 bb eb c8 cc \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 4c 64 45 00 7d 00                      -...LdE.\}........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 004564\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] fe ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 ce e5 c5 80 fd 80 ba ea c8 ca \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 4e 65 45 00 7d 00                      -...NeE.\}........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 004565\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 d0 e6 c5 80 fd 80 af ee c8 ca \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 50 66 45 00 7d 00                      -...PfE.\}........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 004566\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 d2 e7 c5 80 fd 80 ae ef c8 ca \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 52 67 45 00 7d 00                      -...RgE.\}........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 004567\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 d4 e8 c5 80 fd 80 af eb c8 ca \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 54 68 45 00 7d 00                      -...ThE.\}........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 004568\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 d6 e9 c5 80 fd 80 ae ea c8 ca \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 56 69 45 00 7d 00                      -...ViE.\}........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 004569\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 d8 ea c5 80 fd 80 ab ee c8 cc \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 58 6a 45 00 7d 00                      -...XjE.\}........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 00456a\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 da eb c5 80 fd 80 aa ef c8 ca \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 5a 6b 45 00 7d 00                      -...ZkE.\}........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 00456b\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] fe ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 dc ec c5 80 fd 80 ab ef c8 cc \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 5c 6c 45 00 7d 00                      -...\\lE.\}........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 00456c\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 81 83 80 80 fb ed c5 80 fd 80 af fe c8 ca \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 01 03 00 7b 6d 45 00 7d 00                      -...\{mE.\}........\
+[11:54:10] \
+[11:54:10] handling read block command\
+[11:54:10] Drive 82  Read block 00456d\
+[11:54:10] sending block packet ...\
+[11:54:10] Command Packet:\
+[11:54:10] fe ff ff ff ff c3 82 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 be ba c8 ca \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:54:10] \
+[11:54:10] handling status command\
+[11:54:10] Target Device: 82\
+[11:54:10] ******** Sending DIB! ********\
+[11:54:10] send_status_dib_reply_packet status = F8\
+[11:54:10] \
+[11:54:10] DIB number of blocks 65535\
+[11:54:10] f8 ff ff 00\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 83 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 bf ba c8 cc \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:54:10] \
+[11:54:10] handling status command\
+[11:54:10] Target Device: 83\
+[11:54:10] ******** Sending DIB! ********\
+[11:54:10] send_status_dib_reply_packet status = FC\
+[11:54:10] \
+[11:54:10] DIB number of blocks 280\
+[11:54:10] fc 18 01 00\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 84 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 ba bb c8 ca \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:54:10] \
+[11:54:10] handling status command\
+[11:54:10] Target Device: 84\
+[11:54:10] ******** Sending DIB! ********\
+[11:54:10] send_status_dib_reply_packet status = EC\
+[11:54:10] \
+[11:54:10] ec 00 00 00\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 be ba c8 cc \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:54:10] \
+[11:54:10] handling status command\
+[11:54:10] Target Device: 82\
+[11:54:10] ******** Sending DIB! ********\
+[11:54:10] send_status_dib_reply_packet status = F8\
+[11:54:10] \
+[11:54:10] DIB number of blocks 65535\
+[11:54:10] f8 ff ff 00\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 83 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 bf ba c8 cc \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:54:10] \
+[11:54:10] handling status command\
+[11:54:10] Target Device: 83\
+[11:54:10] ******** Sending DIB! ********\
+[11:54:10] send_status_dib_reply_packet status = FC\
+[11:54:10] \
+[11:54:10] DIB number of blocks 280\
+[11:54:10] fc 18 01 00\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 84 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 ba bb c8 ca \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:54:10] \
+[11:54:10] handling status command\
+[11:54:10] Target Device: 84\
+[11:54:10] ******** Sending DIB! ********\
+[11:54:10] send_status_dib_reply_packet status = EC\
+[11:54:10] \
+[11:54:10] ec 00 00 00\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 be ba c8 ca \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:54:10] \
+[11:54:10] handling status command\
+[11:54:10] Target Device: 82\
+[11:54:10] ******** Sending DIB! ********\
+[11:54:10] send_status_dib_reply_packet status = F8\
+[11:54:10] \
+[11:54:10] DIB number of blocks 65535\
+[11:54:10] f8 ff ff 00\
+[11:54:10] Command Packet:\
+[11:54:10] fe ff ff ff ff c3 83 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 bf ba c8 ca \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:54:10] \
+[11:54:10] handling status command\
+[11:54:10] Target Device: 83\
+[11:54:10] ******** Sending DIB! ********\
+[11:54:10] send_status_dib_reply_packet status = FC\
+[11:54:10] \
+[11:54:10] DIB number of blocks 280\
+[11:54:10] fc 18 01 00\
+[11:54:10] Command Packet:\
+[11:54:10] ff ff ff ff ff c3 84 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 ba bb c8 cc \
+[11:54:10] Decoding 9 bytes\
+[11:54:10] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:54:10] \
+[11:54:10] handling status command\
+[11:54:10] Target Device: 84\
+[11:54:10] ******** Sending DIB! ********\
+[11:54:10] send_status_dib_reply_packet status = EC\
+[11:54:10] \
+[11:54:11] ec 00 00 00\
+[11:54:11] Command Packet:\
+[11:54:11] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 be ba c8 ca \
+[11:54:11] Decoding 9 bytes\
+[11:54:11] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:54:11] \
+[11:54:11] handling status command\
+[11:54:11] Target Device: 82\
+[11:54:11] ******** Sending DIB! ********\
+[11:54:11] send_status_dib_reply_packet status = F8\
+[11:54:11] \
+[11:54:11] DIB number of blocks 65535\
+[11:54:11] f8 ff ff 00\
+[11:54:11] Command Packet:\
+[11:54:11] ff ff ff ff ff c3 83 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 bf ba c8 cc \
+[11:54:11] Decoding 9 bytes\
+[11:54:11] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:54:11] \
+[11:54:11] handling status command\
+[11:54:11] Target Device: 83\
+[11:54:11] ******** Sending DIB! ********\
+[11:54:11] send_status_dib_reply_packet status = FC\
+[11:54:11] \
+[11:54:11] DIB number of blocks 280\
+[11:54:11] fc 18 01 00\
+[11:54:11] Command Packet:\
+[11:54:11] ff ff ff ff ff c3 84 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 ba bb c8 ca \
+[11:54:11] Decoding 9 bytes\
+[11:54:11] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:54:11] \
+[11:54:11] handling status command\
+[11:54:11] Target Device: 84\
+[11:54:11] ******** Sending DIB! ********\
+[11:54:11] send_status_dib_reply_packet status = EC\
+[11:54:11] \
+[11:54:11] ec 00 00 00\
+[11:54:11] Command Packet:\
+[11:54:11] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 be ba c8 ca \
+[11:54:11] Decoding 9 bytes\
+[11:54:11] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:54:11] \
+[11:54:11] handling status command\
+[11:54:11] Target Device: 82\
+[11:54:11] ******** Sending DIB! ********\
+[11:54:11] send_status_dib_reply_packet status = F8\
+[11:54:11] \
+[11:54:11] DIB number of blocks 65535\
+[11:54:11] f8 ff ff 00\
+[11:54:11] Command Packet:\
+[11:54:11] fe ff ff ff ff c3 83 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 bf ba c8 ca \
+[11:54:11] Decoding 9 bytes\
+[11:54:11] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:54:11] \
+[11:54:11] handling status command\
+[11:54:11] Target Device: 83\
+[11:54:11] ******** Sending DIB! ********\
+[11:54:11] send_status_dib_reply_packet status = FC\
+[11:54:11] \
+[11:54:11] DIB number of blocks 280\
+[11:54:11] fc 18 01 00\
+[11:54:11] Command Packet:\
+[11:54:11] fe ff ff ff ff c3 84 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 ba bb c8 ca \
+[11:54:11] Decoding 9 bytes\
+[11:54:11] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:54:11] \
+[11:54:11] handling status command\
+[11:54:11] Target Device: 84\
+[11:54:11] ******** Sending DIB! ********\
+[11:54:11] send_status_dib_reply_packet status = EC\
+[11:54:11] \
+[11:54:11] ec 00 00 00\
+[11:54:11] Command Packet:\
+[11:54:11] ff ff ff ff ff c3 82 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 be ba c8 ca \
+[11:54:11] Decoding 9 bytes\
+[11:54:11] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:54:11] \
+[11:54:11] handling status command\
+[11:54:11] Target Device: 82\
+[11:54:11] ******** Sending DIB! ********\
+[11:54:11] send_status_dib_reply_packet status = F8\
+[11:54:11] \
+[11:54:11] DIB number of blocks 65535\
+[11:54:11] f8 ff ff 00\
+[11:54:11] Command Packet:\
+[11:54:11] ff ff ff ff ff c3 83 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 bf ba c8 ca \
+[11:54:11] Decoding 9 bytes\
+[11:54:11] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:54:11] \
+[11:54:11] handling status command\
+[11:54:11] Target Device: 83\
+[11:54:11] ******** Sending DIB! ********\
+[11:54:11] send_status_dib_reply_packet status = FC\
+[11:54:11] \
+[11:54:11] DIB number of blocks 280\
+[11:54:11] fc 18 01 00\
+[11:54:11] Command Packet:\
+[11:54:11] ff ff ff ff ff c3 84 80 80 80 80 82 81 80 80 83 c0 e3 d6 83 80 80 80 80 ba bb c8 ca \
+[11:54:11] Decoding 9 bytes\
+[11:54:11] 0000: 00 03 e3 56 03 00 00 00 00                      -...V............\
+[11:54:11] \
+[11:54:11] handling status command\
+[11:54:11] Target Device: 84\
+[11:54:11] ******** Sending DIB! ********\
+[11:54:11] send_status_dib_reply_packet status = EC\
+[11:54:11] }
